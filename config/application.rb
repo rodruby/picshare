@@ -4,6 +4,8 @@ require 'rails/all'
 
 #config.assets.initialize_on_precompile = false
 
+#config.serve_static_assets = true
+
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
