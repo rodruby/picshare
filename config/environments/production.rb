@@ -79,5 +79,5 @@ Rails.application.configure do
   
   #Added per devise for production, needs to be changed to the production url
   
-  #config.action_mailer.default_url_options = { host: 'http://murmuring-savannah-5872.herokuapp.com/' }
+  config.action_mailer.default_url_options = { host: 'https://fast-springs-2233.herokuapp.com/' }
 end
