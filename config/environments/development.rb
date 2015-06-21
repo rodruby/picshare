@@ -44,7 +44,5 @@ Rails.application.configure do
   #Added per devise for development
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
   
-  #Added per devise for production, needs to be changed to the production url
-  config.action_mailer.default_url_options = { host: 'murmuring-savannah-5872.herokuapp.com' }
   
 end

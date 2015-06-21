@@ -76,4 +76,7 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+  
+  #Added per devise for production, needs to be changed to the production url
+  config.action_mailer.default_url_options = { host: 'http://murmuring-savannah-5872.herokuapp.com/' }
 end
